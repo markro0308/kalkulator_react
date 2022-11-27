@@ -1,0 +1,43 @@
+.button {
+  width: calc(25% - 1.5px);
+  background-color: #e6e6e6;
+  margin-bottom: 2px;
+  border: none;
+  font-size: 25px;
+
+  &:hover,
+  &:active {
+    background-color: #cccccc;
+  }
+
+  &_is-equal {
+    background-color: #92a8d1;
+
+    &:hover,
+    &:active {
+      background-color: #6f8cc3;
+    }
+  }
+
+  &_is-memory {
+    background-color: #d9d9d9;
+    font-weight: bold;
+    width: calc(20% - 1.5px);
+    font-size: 18px;
+
+    &:hover,
+    &:active {
+      -webkit-box-shadow: 1px 2px 12px -2px rgba(66, 68, 90, 1);
+      -moz-box-shadow: 1px 2px 12px -2px rgba(66, 68, 90, 1);
+      box-shadow: 1px 2px 12px -2px rgba(66, 68, 90, 1);
+    }
+  }
+
+  &_is-number {
+    font-weight: bold;
+  }
+
+  &_is-white {
+    background-color: #f2f2f2;
+  }
+}
